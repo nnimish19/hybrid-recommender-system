@@ -1,0 +1,174 @@
+body {
+	margin:0px;
+	padding:0px;
+	background-image: url(i2.jpg); /*no-repeat left top;  <- image does not load on adding this*/
+	  														/*image should be in same folder as this file i.e., style.css*/
+	background-color: #FCF;
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	/*color: #333333;*/
+/*	background: #101010;*/
+}
+
+h1, h2, h3 {
+	
+	text-transform: lowercase;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	color: #811305;
+}
+
+h1 {
+	font-size: 32px;
+}
+
+h2 {
+	font-size: 23px;
+}
+
+p, ul, ol {
+	
+	line-height: 26px;
+}
+
+a:link {
+	color: #3B0700;
+}
+
+
+/* wrapper */
+#wrapper {
+/*	width: 940px;*/
+	height: auto;
+	margin: 0 auto;
+/*	background: #101010; */
+}
+
+/* Menu */
+#menu {
+/*	width: 940px;*/
+	text-align: right; 
+	color: #FFFFFF;
+	height: 25px;
+	background: #101010;
+}
+#m p{
+/*	padding-top: 20px;*/
+	margin: 0 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+#menu a {
+	margin: 0 20px;
+	text-decoration: none;
+	text-transform: capitalize;
+	font: 12px Tahoma, Arial, Helvetica, sans-serif;
+	color: #FFFFFF;
+}
+
+/* header */
+
+#header {
+/*	width: 940px;*/
+	height: 100px;
+	margin-left:auto;
+	margin-right:auto;
+	/*background: url(images/img02.jpg) no-repeat left top;*/
+/*	background-color:#00FF00;*/
+}
+
+
+/* Page */
+#page {
+/*	width: 940px;*/
+	height: 570px;
+	margin: 0 auto;
+/*	background-color:#0000FF;*/
+}
+
+/* Content */
+
+/* Sidebar */
+.sidebar {
+	float: left;
+	width: 150px;
+	height: inherit;
+/*	padding: 20px 0 0 20px;*/
+	/*padding: 30px 0 0 30px;*/
+/*	background-color:#666;*/
+}
+
+
+.content1 {
+	text-align:center;
+	float: right;
+	width: auto;
+	height: inherit;
+/*	padding: 30px 30px 0 0;*/
+/*	background-color:#FFFF00;*/
+}
+
+.content2 {
+	text-align:center;
+	float: right;
+	width: auto;
+	height: inherit;
+}
+
+#search
+{
+  border: 1px solid #000000;
+  width: 200px;
+}
+
+.search input[type="text"]
+{
+  background: #FFF;
+  border: 0 none;
+  float: left;
+  height: 2.5em;
+  line-height: 2.5em;
+  margin: 0;
+  padding: 1.5px 0;
+  width: 400px;
+}
+
+.search input[type="submit"]
+{
+  background-image:url(s2.png);/*no-repeat left top; 	<-image does not load on adding this. */
+  														/*image should be in same folder as this file*/
+  /*background-position:top center;*/
+  background-color: #CCCCCC;
+  border: 0 none;
+  height: 2.95em;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 1.5px 0;
+  text-indent: 100px;
+  width: 40px;
+}
+
+
+/* Footer */
+#footer {
+	/*	width:940px;*/
+	height:27px;
+	text-align: center;
+	font-weight:bold;	
+	color: #000000;
+/*	text-transform: uppercase;*/
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	background: lightgrey;
+	position: relative;
+	bottom: auto;
+}
+
+
+#legal {
+/*	padding-top: 20px;*/
+	text-align: center;
+	color: #000000;
+}

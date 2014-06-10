@@ -1,0 +1,15 @@
+application: misc-recommender
+version: 1
+runtime: python27
+api_version: 1
+threadsafe: true
+
+handlers:
+- url: /static
+  static_dir: static
+- url: /(sub)*
+  script: misc-recommender.app1
+- url: /(sign)*
+  script: misc-recommender.app2
+- url: /(recom)*
+  script: misc-recommender.app3
